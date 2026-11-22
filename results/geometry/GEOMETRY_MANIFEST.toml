@@ -1,0 +1,53 @@
+[geometry]
+input_sha256 = "be3defe739306a40c89799834ab6b64ff651dd09cffae7e934c703b046139347"
+input_matrix_sha256 = "08d469c4d6724e8c042c2749ef6f811111bd9867e7150f691643d6996c46d817"
+feature_order = ["CDS", "exon", "five_prime_UTR", "lnc_RNA", "mRNA", "miRNA", "ncRNA_gene", "pseudogene", "rRNA", "snRNA", "snoRNA", "three_prime_UTR", "transposable_element"]
+block_sizes = [20, 40, 60, 80, 100, 150, 200]
+generated_utc = "2026-09-06T17:53:11.992246+00:00"
+output_status = "regenerated publication outputs from retained SI reference output"
+historical_umap_coordinates_used = false
+
+[pca]
+n_components = 2
+scaled = false
+pc1_ratio = 0.9334130852249626
+pc2_ratio = 0.04517565313436558
+combined_ratio = 0.9785887383593281
+
+[umap]
+n_neighbors = 10
+min_dist = 0.2
+metric = "euclidean"
+random_state = 42
+n_components = 2
+coordinate_status = "regenerated canonical publication coordinates, not recovered historical coordinates"
+max_abs_repeat_difference = 0.0
+mean_abs_repeat_difference = 0.0
+
+[clustering]
+metric = "euclidean"
+linkage = "average"
+criterion = "maxclust"
+requested_clusters = 4
+
+[environment]
+python = "3.11.9"
+numpy = "2.0.2"
+scipy = "1.16.3"
+scikit_learn = "1.6.1"
+numba = "0.60.0"
+llvmlite = "0.43.0"
+pynndescent = "0.5.13"
+umap_learn = "0.5.11"
+joblib = "1.4.2"
+
+[files]
+"feature_level_si_matrix.csv" = "08d469c4d6724e8c042c2749ef6f811111bd9867e7150f691643d6996c46d817"
+"pca_coordinates.csv" = "70f23a0643fab18061929a9f52287fcbb763ccda26cd3132a30693690121ce0e"
+"pca_variance.csv" = "7e4af57c94716d2e7b1e1f78cb09deffaae461859e06d873cc4144deb36217cd"
+"umap_coordinates.csv" = "9a952e69ad68e92e2b34cb83ff5e017926cff05d962cfa435144edea2647b627"
+"umap_metadata.toml" = "7234d939148116a09bd8230ea72c0da994e740ba729d460de7dff587e76cc33f"
+"clustering_distance.csv" = "a4af21807298ddac32ec985f0ecfea4ad9336b8b6049c4fd7bb65290d181fcc0"
+"clustering_linkage.csv" = "0f1f962fb6ebc46a87f20f5c35943b9fdd663804a700a0f4ab5d52b4822dd8e0"
+"cluster_assignments.csv" = "c443423282690f899a7e7e3ea8fa7c82dd12560aedd188821b55c0a6d6ae0808"
+"cluster_composition.csv" = "b1af1a55d5c3ea498b0c208043b1fd9fb470596d32b485f08704aef16ac3c282"

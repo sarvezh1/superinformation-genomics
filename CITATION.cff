@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or its associated research outputs, please cite this research repository."
+title: "Multiscale superinformation reveals structured organization of genomic sequence features"
+authors:
+  - family-names: Galgale
+    given-names: Sarvesh
+license: MIT
+preferred-citation:
+  type: generic
+  title: "Multiscale superinformation reveals structured organization of genomic sequence features"
+  authors:
+    - family-names: Galgale
+      given-names: Sarvesh
+  year: 2026

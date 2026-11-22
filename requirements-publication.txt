@@ -1,0 +1,10 @@
+# Validated UMAP regeneration environment; not a recovered original environment.
+# Python 3.11.9 was used. Figure-rendering provenance is documented separately.
+numpy==2.0.2
+scipy==1.16.3
+scikit-learn==1.6.1
+numba==0.60.0
+llvmlite==0.43.0
+pynndescent==0.5.13
+umap-learn==0.5.11
+joblib==1.4.2

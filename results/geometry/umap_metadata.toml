@@ -1,0 +1,38 @@
+input_matrix = "results/geometry/feature_level_si_matrix.csv"
+input_matrix_sha256 = "08d469c4d6724e8c042c2749ef6f811111bd9867e7150f691643d6996c46d817"
+reference_input = "tests/fixtures/reference/superinformation_values.csv"
+reference_input_sha256 = "be3defe739306a40c89799834ab6b64ff651dd09cffae7e934c703b046139347"
+feature_order = ["CDS", "exon", "five_prime_UTR", "lnc_RNA", "mRNA", "miRNA", "ncRNA_gene", "pseudogene", "rRNA", "snRNA", "snoRNA", "three_prime_UTR", "transposable_element"]
+block_sizes = [20, 40, 60, 80, 100, 150, 200]
+pca_explained_variance_ratio = [0.9334130852249626, 0.04517565313436558]
+pca_combined = 0.9785887383593281
+umap_runtime_seconds = 14.606044900021516
+umap_repeat_max_abs_difference = 0.0
+umap_repeat_mean_abs_difference = 0.0
+umap_coordinate_status = "regenerated canonical publication coordinates, not recovered historical coordinates"
+dendrogram_order = ["CDS", "rRNA", "snRNA", "snoRNA", "miRNA", "lnc_RNA", "three_prime_UTR", "mRNA", "five_prime_UTR", "ncRNA_gene", "exon", "pseudogene", "transposable_element"]
+python_version = "3.11.9"
+platform = "Windows-10-10.0.26200-SP0"
+generated_utc = "2026-09-06T17:53:11.992246+00:00"
+[pca]
+n_components = 2
+scaled = false
+[umap]
+n_neighbors = 10
+min_dist = 0.2
+metric = "euclidean"
+random_state = 42
+n_components = 2
+numpy = "2.0.2"
+scipy = "1.16.3"
+scikit_learn = "1.6.1"
+numba = "0.60.0"
+llvmlite = "0.43.0"
+pynndescent = "0.5.13"
+umap_learn = "0.5.11"
+joblib = "1.4.2"
+[clustering]
+metric = "euclidean"
+linkage = "average"
+criterion = "maxclust"
+requested_clusters = 4

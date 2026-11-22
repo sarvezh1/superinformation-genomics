@@ -1,0 +1,16 @@
+# Approved deterministic analysis constants.
+block_sizes = [20, 40, 60, 80, 100, 150, 200]
+entropy_bins = 50
+entropy_min = 0.0
+entropy_max = 2.0
+geometry_feature_profiles = 13
+geometry_feature_types_studied = 14
+umap_neighbors = 10
+umap_min_dist = 0.2
+umap_metric = "euclidean"
+umap_random_state = 42
+cluster_linkage = "average"
+cluster_metric = "euclidean"
+cluster_maxclust = 4
+ips_lower_bp = 20
+ips_upper_bp = 200

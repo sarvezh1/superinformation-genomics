@@ -1,0 +1,14 @@
+so_feature,cluster
+CDS,1
+exon,3
+five_prime_UTR,3
+lnc_RNA,3
+mRNA,3
+miRNA,4
+ncRNA_gene,3
+pseudogene,3
+rRNA,1
+snRNA,2
+snoRNA,2
+three_prime_UTR,3
+transposable_element,3

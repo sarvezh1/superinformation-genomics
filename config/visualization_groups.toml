@@ -1,0 +1,24 @@
+# FROZEN visualization-only mapping from scientific specification C-02.
+# These labels are not ontology classes or clusters inferred by UMAP.
+[feature_groups]
+CDS = "Coding"
+exon = "Coding"
+mRNA = "Coding"
+five_prime_UTR = "UTR"
+three_prime_UTR = "UTR"
+lnc_RNA = "ncRNA"
+miRNA = "ncRNA"
+ncRNA_gene = "ncRNA"
+rRNA = "ncRNA"
+snRNA = "ncRNA"
+snoRNA = "ncRNA"
+pseudogene = "Pseudogene"
+transposable_element = "Transposon"
+
+# Recovered from retained Fig4B/Fig4C/Fig5B publication styling.
+[group_colors]
+Coding = "#1f77b4"
+UTR = "#ff7f0e"
+ncRNA = "#2ca02c"
+Pseudogene = "#d62728"
+Transposon = "#9467bd"

@@ -1,0 +1,29 @@
+manifest_version = 1
+publication_source_role = "publication-source copies of retained or canonical frozen assets"
+
+[assets]
+"figure1_methods.png" = "d03ca63f7cea420cefba4df4121969edef5655180b004ed475730e51bc88eb60"
+"figure2_panel.png" = "5436872f8fbd9e10312e79c87534565c55a38f18a2a61c1fed3992ffae5490b3"
+"figure3_panel.png" = "96cbcd479f3a0d087442e206d26ee000823f8a0f8dabd0f47436ea9a3c2d3402"
+"figure4_panel.png" = "0a810d5923ad29c9570d33a90f3604fcc688f98dfec718dde8763670ba045226"
+"umap_feature_labelled.png" = "f625f1bf2ece2c97f155683ea733e51be943c078d8898fa365b4ca95a68335c2"
+"umap_broad_groups.png" = "be64621f9ddd23e22c2f4852923e6ffa86367d3848d09c7db3f82ea4391aadaa"
+"pca_feature_labelled.png" = "528129c99f4e8dfb8e90151470fc43e025ff5c50028b3659321855192990f096"
+"hierarchical_dendrogram.png" = "7776c11ff81d56ecf04d69b3fcbd81553cdf35c73117503ad1b3342f188ce0d1"
+"cluster_composition.png" = "6cba9cff458b60a1fd6b308bc228d4d8b22ed5cac7bf3e2215824dafb88987dd"
+"FigS1_full_SI_curves.png" = "97abf6c3da5f60adc8428b4d4c49d0dca726a3f62d3d444cf7440c1c6e049ec4"
+"FigS2_PCA_features.png" = "cae938b0e5ed936caf9084b6905699db55a152a8c5825dd036e7eb578a7b5248"
+"FigS3_null_convergence.png" = "91d36d7e01a81790e61eab0fdd3906e79f0ffdaf50c4cd1296435b4b994f2884"
+"FigS4_variance_vs_blocksize.png" = "183584747b044dd6624a999579627884a5b6a0b7d9a3dcd805951a30140d8f4f"
+"FigS5_variance_vs_SI.png" = "dafffe084a811a04cb4614901e77f5defdc124ff3826db740888a7c2078c30d2"
+"FigS6_GC_null_clean.png" = "e2cdeeef046648a93c64d59baa3b418eccc3197c155ae3e64d7b9fc1609afea7"
+"FigS7_baseline_descriptors.png" = "1e75b0de651ef0bdd1a8251f04f1bcd1bd68cccb6fa679991e6d07037cb348bb"
+
+[provenance]
+figures_1_to_4 = "retained immutable publication assets; complete public rendering scripts unavailable"
+supplementary_figures = "retained immutable publication assets; complete public rendering scripts unavailable"
+geometry_figures = "publication-source copies of canonical outputs under results/geometry/figures"
+figure_1_scope = "retained unchanged overview asset; not an exhaustive workflow diagram"
+retained_assets = ["figure1_methods.png", "figure2_panel.png", "figure3_panel.png", "figure4_panel.png", "FigS1_full_SI_curves.png", "FigS2_PCA_features.png", "FigS3_null_convergence.png", "FigS4_variance_vs_blocksize.png", "FigS5_variance_vs_SI.png", "FigS6_GC_null_clean.png", "FigS7_baseline_descriptors.png"]
+canonical_geometry_copies = ["umap_feature_labelled.png", "umap_broad_groups.png", "pca_feature_labelled.png", "hierarchical_dendrogram.png", "cluster_composition.png"]
+complete_public_rendering_pipeline_for_all_assets = false

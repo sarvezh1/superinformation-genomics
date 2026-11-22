@@ -1,0 +1,107 @@
+renderer_version = "3.0"
+figure_script = "scripts/generate_geometry_figures.py"
+style_evidence = "docs/figure_style_reference.md"
+scientific_source_unchanged = true
+recomputes_pca = false
+recomputes_umap = false
+recomputes_distances = false
+recomputes_clustering = false
+generated_utc = "2026-09-06T20:11:57.093475+00:00"
+matplotlib = "3.10.7"
+scipy = "1.18.0"
+
+[source_sha256_before]
+"feature_level_si_matrix.csv" = "08d469c4d6724e8c042c2749ef6f811111bd9867e7150f691643d6996c46d817"
+"pca_coordinates.csv" = "70f23a0643fab18061929a9f52287fcbb763ccda26cd3132a30693690121ce0e"
+"pca_variance.csv" = "7e4af57c94716d2e7b1e1f78cb09deffaae461859e06d873cc4144deb36217cd"
+"umap_coordinates.csv" = "9a952e69ad68e92e2b34cb83ff5e017926cff05d962cfa435144edea2647b627"
+"clustering_linkage.csv" = "0f1f962fb6ebc46a87f20f5c35943b9fdd663804a700a0f4ab5d52b4822dd8e0"
+"dendrogram_order.csv" = "cfa30b2eb3af2c41db3d71980ee9a4de3975c8f4f9ca87630d113554cb1654e5"
+"cluster_assignments.csv" = "c443423282690f899a7e7e3ea8fa7c82dd12560aedd188821b55c0a6d6ae0808"
+"cluster_composition.csv" = "b1af1a55d5c3ea498b0c208043b1fd9fb470596d32b485f08704aef16ac3c282"
+"config/visualization_groups.toml" = "01a0c8f274f5ead11c1ea457787cac525377183d3136038bbb197198dea24162"
+
+[source_sha256_after]
+"feature_level_si_matrix.csv" = "08d469c4d6724e8c042c2749ef6f811111bd9867e7150f691643d6996c46d817"
+"pca_coordinates.csv" = "70f23a0643fab18061929a9f52287fcbb763ccda26cd3132a30693690121ce0e"
+"pca_variance.csv" = "7e4af57c94716d2e7b1e1f78cb09deffaae461859e06d873cc4144deb36217cd"
+"umap_coordinates.csv" = "9a952e69ad68e92e2b34cb83ff5e017926cff05d962cfa435144edea2647b627"
+"clustering_linkage.csv" = "0f1f962fb6ebc46a87f20f5c35943b9fdd663804a700a0f4ab5d52b4822dd8e0"
+"dendrogram_order.csv" = "cfa30b2eb3af2c41db3d71980ee9a4de3975c8f4f9ca87630d113554cb1654e5"
+"cluster_assignments.csv" = "c443423282690f899a7e7e3ea8fa7c82dd12560aedd188821b55c0a6d6ae0808"
+"cluster_composition.csv" = "b1af1a55d5c3ea498b0c208043b1fd9fb470596d32b485f08704aef16ac3c282"
+"config/visualization_groups.toml" = "01a0c8f274f5ead11c1ea457787cac525377183d3136038bbb197198dea24162"
+
+[output_sha256]
+"umap_feature_labelled.png" = "f625f1bf2ece2c97f155683ea733e51be943c078d8898fa365b4ca95a68335c2"
+"umap_feature_labelled.svg" = "dd90964666ee457480e898daf86b5e5bec9e0cbe6ae0656a8cac214e2943a7dd"
+"umap_broad_groups.png" = "be64621f9ddd23e22c2f4852923e6ffa86367d3848d09c7db3f82ea4391aadaa"
+"umap_broad_groups.svg" = "6df5197f05707940db47f9741240abf92ab73e904e39bd67d0a8356bf5956c5d"
+"pca_feature_labelled.png" = "528129c99f4e8dfb8e90151470fc43e025ff5c50028b3659321855192990f096"
+"pca_feature_labelled.svg" = "5bd97d7405e631939a4ecb0f9401999902a871c892016e07dd67d44a556d1c1f"
+"hierarchical_dendrogram.png" = "7776c11ff81d56ecf04d69b3fcbd81553cdf35c73117503ad1b3342f188ce0d1"
+"hierarchical_dendrogram.svg" = "e7f4bc0b0b63004727dc50224df9a7af7788b3a71f6a129eedccd9197939af44"
+"cluster_composition.png" = "6cba9cff458b60a1fd6b308bc228d4d8b22ed5cac7bf3e2215824dafb88987dd"
+"cluster_composition.svg" = "2437f85aca9a5f3d04e17c789c1801cdfb671848da188e99c6df47766bb9ae19"
+
+[display_labels]
+"CDS" = "CDS"
+"exon" = "Exon"
+"five_prime_UTR" = "5\u2032 UTR"
+"lnc_RNA" = "lncRNA"
+"mRNA" = "mRNA"
+"miRNA" = "miRNA"
+"ncRNA_gene" = "ncRNA gene"
+"pseudogene" = "Pseudogene"
+"rRNA" = "rRNA"
+"snRNA" = "snRNA"
+"snoRNA" = "snoRNA"
+"three_prime_UTR" = "3\u2032 UTR"
+"transposable_element" = "Transposable element"
+
+[broad_groups]
+"CDS" = "Coding"
+"exon" = "Coding"
+"mRNA" = "Coding"
+"five_prime_UTR" = "UTR"
+"three_prime_UTR" = "UTR"
+"lnc_RNA" = "ncRNA"
+"miRNA" = "ncRNA"
+"ncRNA_gene" = "ncRNA"
+"rRNA" = "ncRNA"
+"snRNA" = "ncRNA"
+"snoRNA" = "ncRNA"
+"pseudogene" = "Pseudogene"
+"transposable_element" = "Transposon"
+
+[broad_group_colors]
+"Coding" = "#1f77b4"
+"UTR" = "#ff7f0e"
+"ncRNA" = "#2ca02c"
+"Pseudogene" = "#d62728"
+"Transposon" = "#9467bd"
+
+[figures.umap_feature_labelled]
+conceptual_name = "Umap Feature Labelled"
+sources = ["umap_coordinates.csv"]
+outputs = ["umap_feature_labelled.png", "umap_feature_labelled.svg"]
+
+[figures.umap_broad_groups]
+conceptual_name = "Umap Broad Groups"
+sources = ["umap_coordinates.csv", "config/visualization_groups.toml"]
+outputs = ["umap_broad_groups.png", "umap_broad_groups.svg"]
+
+[figures.pca_feature_labelled]
+conceptual_name = "Pca Feature Labelled"
+sources = ["pca_coordinates.csv", "pca_variance.csv"]
+outputs = ["pca_feature_labelled.png", "pca_feature_labelled.svg"]
+
+[figures.hierarchical_dendrogram]
+conceptual_name = "Hierarchical Dendrogram"
+sources = ["clustering_linkage.csv", "dendrogram_order.csv"]
+outputs = ["hierarchical_dendrogram.png", "hierarchical_dendrogram.svg"]
+
+[figures.cluster_membership]
+conceptual_name = "Cluster Membership"
+sources = ["cluster_assignments.csv", "cluster_composition.csv", "dendrogram_order.csv"]
+outputs = ["cluster_composition.png", "cluster_composition.svg"]
